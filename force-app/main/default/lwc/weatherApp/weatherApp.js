@@ -52,17 +52,7 @@ export default class WeatherApp extends LightningElement {
             this.isError=true
             this.cityName=''
         })
-        /*const URL= `https://api.openweathermap.org/data/2.5/weather?q=${this.cityName}&appid=${API_KEY}&units=metric`
-        fetch(URL).then(res=>res.json()).then(result=>{
-            console.log('Result: '+JSON.stringify(result))
-            this.loadingText=''
-            this.weatherDetails(result)
-        }).catch(error=>{
-            console.log('Error: '+error) // to catch any error that occurs during the fetch operation
-            this.loadingText='Something went wrong ...'
-            this.isError=true
-            this.cityName=''
-        })*/
+       
 
     }
 
