@@ -1,0 +1,130 @@
+.App
+{
+    background-image: linear-gradient(to right, #619ee8, #062b62); /*   83a4d4  b6fbff */
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.App-Card {
+    background-color: #83a4d4; /* Light background color   0d397a */
+    min-height: 0px; 
+    min-width: 400px;
+    margin: 20px auto; /* Center the card with margin */
+    border-radius: 25px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(210, 4, 4, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Inner spacing */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */ 
+    text-align: center; /* Center text */
+    color: white; /* Text color */
+    
+}
+
+.Heading
+{
+    
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.App-Card input {
+    width: 90%; /* Make input field responsive */
+    padding: 10px; /* Inner spacing */
+    border: 1px solid #d8dde6; /* Light border */
+    border-radius: 5px; /* Slightly rounded corners */
+    margin-bottom: 15px; /* Space below the input */
+    color: #0070d2;
+    font-size: 16px; /* Font size */
+    text-align: center; /* Center text inside input */
+}
+
+.App-Card button {
+    background-color: #0070d2; /* Salesforce blue */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    padding: 10px 15px; /* Inner spacing */
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.App-Card button:hover {
+    background-color: #b2007d; /* Darker blue on hover */
+}
+
+
+.msg-fecting
+{
+    background: #d4edda;
+    color:#155724;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 8px;
+    border: 1px solid #c3e6cb;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.msg-error
+{
+    background: #f8d7da;
+    color:#721c24;
+    padding: 12px;
+    margin: 12px;
+    border-radius: 8px;
+    border: 1px solid #f5c6cb;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.Temparture
+{
+    line-height: normal;
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.Description,.Location
+{
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 25px;
+}
+footer
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-top: 5px solid #ccc;
+    margin-top: 10px;
+    font-size: 18px;
+    
+}
+
+.feels-like
+{
+    border-left: 5px solid #ccc;
+    width: 100%;
+    padding: 25px;
+}
+
+
+.Humidity
+{
+    border-left: 5px solid #ccc;
+    width: 100%;
+    padding-left: 55px;
+}
+
+.weather-Icon
+{
+    max-width: 125px;
+}
+
+.arrow {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    cursor: pointer;
+}
