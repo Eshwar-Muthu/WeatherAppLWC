@@ -1,5 +1,5 @@
 import { LightningElement } from 'lwc';
-const API_KEY='003fcd4115589e3e6a054440c2efec22'
+
 
 import WEATHER_ICONS from '@salesforce/resourceUrl/weatherAppIcons'
 import getWeatherInfo from '@salesforce/apex/WeatherAppApexClass.getWeatherInfo'
